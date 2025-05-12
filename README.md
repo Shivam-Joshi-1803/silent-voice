@@ -1,33 +1,67 @@
-🧏‍ Silent Voice
+<p align="center"> <img src="https://img.shields.io/badge/Status-Under%20Patent%20Review-orange?style=for-the-badge&logo=legal&logoColor=white" alt="Patent Status Badge"> </p> <h1 align="center">🧏‍ Silent Voice</h1> <p align="center"> <strong>AI-powered communication bridge for the deaf and mute community</strong><br> <em>Real-time Indian Sign Language ↔ Text/Speech translation</em> </p>
+⚠️ Note:
+This project is currently undergoing a patent application. Due to intellectual property protection, the full source code is temporarily withheld from public access. A demo and technical overview are provided below for understanding the concept and capabilities.
 
-Silent Voice is an AI-powered, two-way communication system that bridges the gap between the deaf/mute community and the hearing world. It translates Indian Sign Language (ISL) into text and speech, and also converts spoken words into ISL, making communication seamless and accessible.
+🔥 Key Highlights
+✋ ISL to Text & Speech
+Uses computer vision and deep learning to recognize hand gestures and convert them into real-time text and audio output.
 
-⚠️ Note: This project is currently under the patent process. As a result, the full source code is not publicly available at this time.
+🎙️ Speech to ISL
+Translates spoken words into Indian Sign Language using animated visuals for two-way communication.
 
-🚀 Features
+🧠 Custom AI Models
+Trained on a dedicated ISL dataset for accurate and responsive gesture classification.
 
-🔤 ISL to Text/Speech: Real-time gesture recognition and conversion using computer vision and deep learning.
-🗣️ Speech to ISL: Converts voice input to Indian Sign Language gestures using animation or visual indicators.
-🧠 Custom-Trained Models: Built and trained on a dataset of ISL gestures for accurate classification.
-🎯 User-Friendly Interface: Simple and intuitive UI for both hearing and non-hearing users.
-🔄 Two-Way Communication: Enables natural interaction between users regardless of hearing ability.
+🌐 User-Friendly Interface
+Accessible design for both hearing and non-hearing users with a focus on simplicity and usability.
 
-🧪 How It Works (Overview Only)
-Due to the patenting process, we can only provide a high-level overview of how Silent Voice operates
+🧠 How It Works (Overview)
 
-1)Sign to Text/Speech
+🖐️ Gesture Recognition
 
-- Captures hand gestures via webcam.
-- Uses computer vision and trained AI models for classification.
-- Outputs translated speech/text for real-time communication.
-- 
-2)Speech to Sign
-  
-- Captures spoken language via microphone.
-- Translates to ISL format using a dynamic visual system.
+- Captures hand signs via webcam
+- Uses OpenCV + MediaPipe for landmark detection
+- Predicts meaning using a custom-trained CNN model
 
-📬 Contact
-Creator: Shivam Joshi
-Email: joshishivam181893@gmail.com
-LinkedIn: www.linkedin.com/in/shivam-cs
-GitHub: [github.com/your-username](https://github.com/Shivam-Joshi-1803)
+🔊 Speech Recognition
+
+- Captures user voice via microphone
+- Transcribes speech using NLP libraries
+- Displays ISL sign equivalents via animations or image renderings
+
+📸 Visual Preview
+(Add a GIF or demo screenshot here for better engagement — e.g., a looping animation of sign-to-speech or the UI in action)
+
+<p align="center"> <img src="https://media.giphy.com/media/3ohs7KViFppQV7YbLW/giphy.gif" alt="Demo GIF" width="400"> </p>
+
+🛠 Tech Stack
+Component	Technology Used
+Frontend	HTML, CSS, JavaScript
+Backend	Python (Flask / Streamlit)
+AI/ML	TensorFlow, OpenCV, MediaPipe, Keras
+Voice Processing	SpeechRecognition, pyttsx3
+Deployment	Localhost / Web Interface (Prototype)
+
+📌 Roadmap
+ ISL to Text & Speech prototype
+
+ Speech to ISL basic interface
+
+ Advanced ISL animations or avatar
+
+ Multilingual support
+
+ Mobile app version
+
+ Public beta (after patent approval)
+
+🤝 Let’s Collaborate
+Although the code is private, I’m open to partnerships, R&D collaborations, or pilot implementations with accessibility organizations, researchers, and developers interested in inclusive tech.
+
+📩 Email: joshishivam181893@gmail.com
+
+🔗 LinkedIn: www.linkedin.com/in/shivam-cs
+
+📄 License
+This project is under IP protection. Full source and licensing will be released once the patent process is complete.
+
