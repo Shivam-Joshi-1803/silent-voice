@@ -30,7 +30,6 @@ Accessible design for both hearing and non-hearing users with a focus on simplic
 - Displays ISL sign equivalents via animations or image renderings
 
 📸 Visual Preview
-(Add a GIF or demo screenshot here for better engagement — e.g., a looping animation of sign-to-speech or the UI in action)
 
 <p align="center"> <img src="https://media.giphy.com/media/3ohs7KViFppQV7YbLW/giphy.gif" alt="Demo GIF" width="400"> </p>
 
